@@ -509,5 +509,9 @@ a{
     {
         background-position: right;
     }
+    .text-resident{
+        display: flex;
+        flex-direction: column;
+    }
 
 }
