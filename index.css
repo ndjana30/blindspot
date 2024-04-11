@@ -518,5 +518,7 @@ a{
         display: flex;
         flex-direction: column;
     }
-
+    .imaging,.imaging2,.imaging3{
+        height: 80vh;
+    }
 }
