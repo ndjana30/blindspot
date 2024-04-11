@@ -491,13 +491,16 @@ a{
         justify-content: center;
         align-items: center;
     }
+
     .stat-text{
         font-size: 30px;
+        /* border: 1px solid white; */
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
+        width: 100%;
     }
     .big{
         /* border: 1px solid white; */
