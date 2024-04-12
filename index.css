@@ -59,8 +59,10 @@ body{
     color:#c5aa95;
     
     text-align: center;
-    word-wrap: break-word;
-   
+    word-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 .small{
     font-size:15px;
@@ -413,7 +415,7 @@ input{
     border:none;
     border-bottom: 1px solid white;
     outline: none;
-    font-size: 20px;
+    font-size: 10px;
     /* text-transform: uppercase; */
     /* padding-bottom: 3px; */
 
@@ -421,6 +423,7 @@ input{
 ::-webkit-input-placeholder{
     color: #0a0a0a;
     text-transform: uppercase;
+    font-size: 10px;
 }
 .arrow{
     width: 50%;
@@ -448,16 +451,25 @@ a{
         justify-content:flex-start;
         gap: 20px;
     }
+    .second-header{
+        font-size: 30px;
+    }
+    .second-text{
+        font-size: 10px;
+    }
     .end{
         height: 100%;
     }
     .formulaire{
-        width: fit-content;
+        width: 50%;
         /* border: 1px solid orange; */
-        height: 100%;
+        height: 60%;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-self: center;
         gap: 20px;
         /* margin: auto; */
         /* padding-bottom: 20px; */
@@ -501,14 +513,22 @@ a{
         align-items: center;
         text-align: center;
         width: 100%;
+        text-wrap:wrap ;
     }
     .big{
         /* border: 1px solid white; */
-        font-size: 60px;
+        font-size: 30px;
         width: 100%;
+        /* text-wrap: wrap; */
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .text{
+        text-wrap: wrap;
     }
     .small{
-        font-size: 20px;
+        font-size: 10px;
     }
     .hero
     {
@@ -520,5 +540,37 @@ a{
     }
     .imaging,.imaging2,.imaging3{
         height: 80vh;
+    }
+    .header{
+        font-size: 30px;
+    }
+    .sub-header{
+        font-size: 10px;
+        line-height: 5px;
+        text-wrap: nowrap;
+    }
+    .form{
+        height: 60vh;
+    }
+    .global{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .global-logo{
+        width: 100%;
+        
+    }
+    .submit{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        width: 100%;
+    }
+    .name,.email,.phone,.submit,.formulaire{
+        border: 1px solid white;
+        width: fit-content;
     }
 }
